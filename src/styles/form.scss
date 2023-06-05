@@ -1,0 +1,77 @@
+.form{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 420px;
+    background-color: white;
+    padding: 50px 30px;
+    border-radius: 10px;
+    &__title{
+        font-size: 27px;
+        margin-bottom: 40px;
+    }
+    &__field{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        &:nth-child(1n+2){
+            margin-top: 15px;
+        }
+        &-inp{
+            width: 100%;
+            padding: 10px;
+        }
+        &-err{
+            color:  #FF6464;;
+            font-size: 12px;
+            width: 100%;
+            display: flex;
+            justify-content: flex-end;
+            margin: 5px 0 -10px 0;
+        }
+    }
+    &__btn{
+        cursor: pointer;
+        margin-top: 20px;
+        background-color: #4DD599;
+        color: white;
+        padding: 12px 15px;
+        border-radius: 5px;
+        &:hover{
+            background-color: #49cd94;
+        }
+    }
+    &__text{
+        font-size: 13px;
+        margin-top: 30px;
+    }
+    &__link{
+        color: #4DD599;
+        text-underline-offset: 2px;
+        &:hover{
+            text-decoration: underline;
+            color: #49cd94;
+        }
+    }
+}
+
+.register{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 40px;
+    background-color: #4DD599;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 0 40px;
+    background-color: #4DD599;
+}
